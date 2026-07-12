@@ -1,0 +1,43 @@
+# env files
+.env
+.env.local
+.env.development
+.env.production
+
+# VS Code stuff
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Some build stuff
+bin/*
+dfs/bin/*
+
+# test files
+dfs/test-data/*
+dfs/tests/e2e/test_files/*
+tests/*
+dfs/tests/e2e/coverage/*
+dfs/tests/e2e/logs/*
+dfs/tests/unit/coverage/*
+
+# logs
+logs/*
+
+# docs -- not yet ready for public release
+docs/deployment.md
+
+# IDE settings
+.idea/
+.cursor/
+
+# Review documents
+/ideas
+
+# Tests
+
+# Coverage
+*coverage.out
